@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundLayout">
+        <attr name="rlRadius" format="dimension" />
+        <attr name="rlClipBackground" format="boolean" />
+        <attr name="leftTopRadius" format="dimension" />
+        <attr name="leftBottomRadius" format="dimension" />
+        <attr name="rightTopRadius" format="dimension" />
+        <attr name="rightBottomRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleSharpView">
+        <attr name="direction" format="string" />
+        <attr name="color" format="color" />
+    </declare-styleable>
+</resources>

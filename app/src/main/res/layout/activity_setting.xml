@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layoutTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/tvBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginStart="4dp"
+                android:gravity="center"
+                android:text="@string/Back"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/Setting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/bg_pc_view_line" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/layoutSettingGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="3">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <include layout="@layout/layout_setting_group" />
+            </ScrollView>
+        </FrameLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/bg_pc_view_line_vertical" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="2">
+
+            <!-- 多语言 -->
+            <com.limelight.view.RoundFrameLayout
+                android:id="@+id/layoutContentLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#383838"
+                android:visibility="visible"
+                app:rlRadius="8dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvLanguageItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.limelight.view.RoundFrameLayout>
+
+            <!-- 关于 -->
+            <com.limelight.view.RoundFrameLayout
+                android:id="@+id/layoutContentAbout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#383838"
+                android:visibility="gone"
+                app:rlRadius="8dp">
+                <!-- 关于页面 -->
+                <include
+                    layout="@layout/layout_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </com.limelight.view.RoundFrameLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
