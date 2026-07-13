@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="RevoMirror-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="RevoMirror Android icon" width="120"/>
+  <img src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="RevoMirror Android icon" width="120"/>
   <h1 align="center">RevoMirror-Android</h1>
   <h4 align="center">面向 Android 的 RevoMirror 局域网投屏客户端。</h4>
 </div>
@@ -113,7 +113,7 @@ RevoMirror-Android 遵循 **GNU 通用公共许可证 v3.0（GPL-3.0）**。
 RevoMirror-Android 以相同许可证进行分发。
 
 完整许可证文本请参见
-[RevoMirror-Android/LICENSE](RevoMirror-Android/LICENSE)。
+[LICENSE](./LICENSE)。
 
 ## 致谢与声明
 

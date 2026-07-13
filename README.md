@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="RevoMirror-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="RevoMirror Android icon" width="120"/>
+  <img src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="RevoMirror Android icon" width="120"/>
   <h1 align="center">RevoMirror-Android</h1>
   <h4 align="center">Android screen mirroring client for RevoMirror over LAN.</h4>
 </div>
@@ -116,7 +116,7 @@ This project is a derivative work based on
 which is also licensed under GPL-3.0. In compliance with the terms of the GPL,
 RevoMirror-Android is distributed under the same license.
 
-See [RevoMirror-Android/LICENSE.txt](RevoMirror-Android/LICENSE.txt) for
+See [LICENSE](./LICENSE) for
 the full license text.
 
 ## Acknowledgements & Credits
