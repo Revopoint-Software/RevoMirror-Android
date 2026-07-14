@@ -16,7 +16,7 @@
 
 ## 项目简介
 
-**RevoMirror-Android** 是由 **Revopoint Software（西安知象光电科技有限公司）**
+**RevoMirror-Android** 是由 **Revopoint Software**
 开发的 Android 投屏与远程控制客户端。它基于开源项目
 [Moonlight Android](https://github.com/moonlight-stream/moonlight-android)
 二次开发，遵循 GPL-3.0 许可证。
