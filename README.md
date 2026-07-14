@@ -97,7 +97,8 @@ where available.
 1. Install Android Studio, Android SDK 35, and Android NDK `27.0.12077973`.
 2. Clone the repository and initialize submodules if required.
 3. Open `RevoMirror-Android` in Android Studio.
-4. Build the `app` module using the `nonRoot` or `root` product flavor.
+4. Create a file called ‘local.properties’. Add an ‘sdk.dir=’ property to the local.properties file and set it equal to your SDK directory.
+5. Build the `app` module using the `nonRoot` or `root` product flavor.
 
 
 ## Documentation

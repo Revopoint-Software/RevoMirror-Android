@@ -94,7 +94,8 @@ RevoMirror-Android 用于连接兼容的 RevoMirror-PC 或基于 Sunshine 的主
 1. 安装 Android Studio、Android SDK 35 和 Android NDK `27.0.12077973`。
 2. 克隆仓库，并在需要时初始化子模块。
 3. 使用 Android Studio 打开 `RevoMirror-Android`。
-4. 构建 `app` 模块，可选择 `nonRoot` 或 `root` product flavor。
+4. 创建一个名为“local.properties”的文件。在该文件中添加“sdk.dir=”属性，并将其值设置为您的SDK目录路径。
+5. 构建 `app` 模块，可选择 `nonRoot` 或 `root` product flavor。
 
 
 ## 文档
