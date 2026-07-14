@@ -129,8 +129,3 @@ RevoMirror-Android 基于以下优秀的开源项目构建：
 
 在此向 Moonlight 和 Sunshine 项目的团队及所有贡献者致以诚挚感谢。本仓库完整保留了
 原始许可证与版权声明。
-
-## 关于 Revopoint Software
-
-RevoMirror-Android 由 **Revopoint Software（西安知象光电科技有限公司，Xi'an
-Chishine Optoelectronics Technology Co., Ltd.）** 开发并维护。

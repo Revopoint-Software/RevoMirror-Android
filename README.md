@@ -134,8 +134,3 @@ projects:
 
 We extend our sincere gratitude to the Moonlight and Sunshine contributors. The
 original license and copyright notices are retained throughout this repository.
-
-## About Revopoint Software
-
-RevoMirror-Android is developed and maintained by **Revopoint Software**
-(Xi'an Chishine Optoelectronics Technology Co., Ltd.).
